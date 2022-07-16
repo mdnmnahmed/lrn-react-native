@@ -1,42 +1,62 @@
 export const sliderData = [
     {
-        title: 'First',
+        title: 'Mountain',
+        price: '$5',
+        tag: 'NATURE',
         img: require('../assets/images/gallery/1.jpg')
     },
     {
-        title: 'Second',
+        title: 'Fire Crackers',
+        price: '0',
+        tag: 'FESTIVAL',
         img: require('../assets/images/gallery/2.jpg')
     },
     {
-        title: 'Third',
+        title: 'Scooty',
+        price: '$3',
+        tag: 'VEHICLE',
         img: require('../assets/images/gallery/3.jpg')
     },
     {
-        title: 'Fourth',
+        title: 'Green Hills',
+        price: '$4',
+        tag: 'NATURE',
         img: require('../assets/images/gallery/4.jpg')
     },
     {
-        title: 'Fifth',
+        title: 'Ocean',
+        price: '0',
+        tag: 'NATURE',
         img: require('../assets/images/gallery/5.jpg')
     },
     {
-        title: 'Sixth',
+        title: 'Trees',
+        price: '0',
+        tag: 'NATURE',
         img: require('../assets/images/gallery/6.jpg')
     },
     {
-        title: 'Seventh',
+        title: 'Kid',
+        price: '0',
+        tag: 'PEOPLE',
         img: require('../assets/images/gallery/7.jpg')
     },
     {
-        title: 'Eighth',
+        title: 'Coffee',
+        price: '0',
+        tag: 'NATURE',
         img: require('../assets/images/gallery/8.jpg')
     },
     {
-        title: 'Ninth',
+        title: 'Cycle',
+        price: '$5',
+        tag: 'NATURE',
         img: require('../assets/images/gallery/9.jpg')
     },
     {
-        title: 'Tenth',
+        title: 'Father',
+        price: '0',
+        tag: 'PEOPLE',
         img: require('../assets/images/gallery/10.jpg')
     }
 ];
