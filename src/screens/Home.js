@@ -20,7 +20,7 @@ const Home = ({ navigation }) => {
                         <Text style={{ fontSize: 16, fontWeight: 'bold', color: 'black' }}>
                             Hello, Numan
                         </Text>
-                        <TouchableOpacity onPress={() => navigation.goBack()}>
+                        <TouchableOpacity onPress={() => navigation.openDrawer()}>
                             <ImageBackground
                                 source={require('../assets/images/users/avatar-9.jpg')}
                                 style={{ width: 35, height: 35 }}
