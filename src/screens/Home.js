@@ -39,7 +39,7 @@ const Home = ({ navigation }) => {
                             Trendings 🔥
                         </Text>
                         <TouchableOpacity>
-                            <Text style={{ color: '#0aadaB' }}>Show More</Text>
+                            <Text style={{ color: '#0aadaB' }}>Show All</Text>
                         </TouchableOpacity>
                     </View>
 
@@ -59,7 +59,15 @@ const Home = ({ navigation }) => {
                         />
                     </View>
 
-                    <View style={{ paddingTop: 20 }}>
+                    <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: 20 }}>
+                        <Text style={{ fontSize: 16, fontWeight: 'bold', color: 'black' }}>
+                            Popular
+                        </Text>
+                        <TouchableOpacity>
+                            <Text style={{ color: '#0aadaB' }}>Show All</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={{ paddingTop: 10 }}>
                         <CustomSwitch
                             selectedSwitch={selectedSwitch}
                             switchButtons={switchButtonsData}
