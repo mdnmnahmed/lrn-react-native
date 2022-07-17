@@ -3,11 +3,7 @@ import { useColorScheme } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Home } from './src/screens';
-import OnBoarding from './src/screens/OnBoarding';
-
-const Stack = createNativeStackNavigator();
+import { AppStack, AuthStack } from './src/navigations';
 
 const App = () => {
     const isDarkMode = useColorScheme() === 'dark';
@@ -17,10 +13,8 @@ const App = () => {
     };
     return (
         <NavigationContainer>
-            <Stack.Navigator>
-                <Stack.Screen component={OnBoarding} name="Main" options={{ headerShown: false }} />
-                <Stack.Screen component={Home} name="Home" options={{ headerShown: false }} />
-            </Stack.Navigator>
+            {/* <AuthStack /> */}
+            <AppStack />
         </NavigationContainer>
     )
 }

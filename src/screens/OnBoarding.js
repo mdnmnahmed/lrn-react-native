@@ -19,7 +19,7 @@ const OnBoarding = ({ navigation }) => {
             </View>
 
             <TouchableOpacity style={{ backgroundColor: '#AD40AF', paddingHorizontal: 20, paddingVertical: 10, width: '90%', borderRadius: 5, flexDirection: 'row', justifyContent: 'space-between', marginBottom: 25 }}
-                onPress={() => navigation.navigate('Home')}
+                onPress={() => navigation.navigate('Login')}
             >
                 <Text style={{ fontWeight: 'bold', fontSize: 18, color: '#fff' }}>Next</Text>
                 <MaterialCommunityIcons name="menu-right-outline" size={22} color='#fff' />
